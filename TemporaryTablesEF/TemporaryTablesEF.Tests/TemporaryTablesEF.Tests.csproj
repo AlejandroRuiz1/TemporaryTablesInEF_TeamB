@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Bogus" Version="33.1.1" />
+    <PackageReference Include="OneOf" Version="3.0.190" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TemporaryTablesEF\TemporaryTablesEF.csproj" />
+  </ItemGroup>
+
+</Project>
